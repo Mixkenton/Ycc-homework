@@ -1,0 +1,115 @@
+.nav{
+    background-color: #505050;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+a.ex1{
+    color : white;
+    text-decoration: none;
+
+}
+p{
+    text-align: center;
+    color : gold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+   width: 1140px;
+   margin: 0 auto;    
+}
+ .section_area_grid{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     
+ }
+
+ .section_item_img img{
+    position: relative;left: 80px; top: 200px;
+    width: 60%;
+    height: auto;
+    animation-name: example;
+    animation-duration: 1s;
+  
+ }
+ @keyframes example{
+     0%{left: 0px; top: 0px;}
+     100%{left: 80px; top: 200px;}
+ }
+ pre{
+    text-align: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #505050;
+    
+ }
+ pre.p1{
+    text-align: left;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: gray;
+ }
+ h2{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #505050;
+    
+ }
+
+button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 20px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  margin: 40px 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+
+  
+}
+
+.button1{
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+.button1:hover{
+    background-color: #008cba;
+    color: white;
+}
+.button2{
+    background-color: white;
+    color: black;
+    border: 2px solid #008cba;
+}
+.button2:hover{
+    background-color: #008cba;
+    color: white;
+}
+h3{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: black;
+    
+}
